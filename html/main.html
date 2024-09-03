@@ -1,16 +1,25 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-	<title>Welcome To SBM</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/nav_logo.css">
+	<title>Welcome To MLRITM</title>
+	<link rel="shortcut icon" href="logom.jpg" type="image" />
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="nav_logo.css">
 	<script type="text/javascript" src="js/cookies.js"></script>
+	<style>
+		.round-image {
+			border-radius: 70%;
+			height: 100px;
+			width: 100px;
+			object-fit: cover;
+			border: 2px solid #ccc;
+		}
+	</style>
 </head>
 <body onload="setPrev_page();checkLogin(1);">
 	<div id="wrap">
 		<div id="top">
-			<a href="#"><img src="src/logo.jpg" height="100px" width="500px" style="border:0px; text-decoration:none;"></a>
+			<a href="#"><img src="logom.jpg"class="round-image"  height="100px" width="200px" style="border:0px; text-decoration:none;"></a>
 			<div id="display_user" style="float:right;">
 				<p id="welcome_user" style="margin-top:85px;margin-right:50px;"></p>
 			</div>
@@ -35,6 +44,10 @@
 					<li><a href="customer_care.html">&nbsp;Customer Care&nbsp;</a></li>
 					<li style="color:black;">|</li>
 					<li><a href="about.html">&nbsp;About&nbsp;</a></li>
+					<li style="color:black;">|</li>
+					<li><a href="login.html">&nbsp;Login&nbsp;</a></li>
+					<li style="color:black;">|</li>
+					<li><a href="signup.html">&nbsp;SignUp&nbsp;</a></li>
 				</ul>
 			</div>
 		</div>
@@ -47,7 +60,7 @@
 						<table>
 							<tr>
 								<td align="center">Personal Banking</td>
-								<td><img src="src/User_icon.png" width="70px" height="70px"></td>
+								<td><img src="User_icon.png" width="70px" height="70px"></td>
 							</tr>
 						</table>
 						&nbsp;<br>&nbsp;<br>
@@ -61,7 +74,7 @@
 								<li>View your Transaction History</li>
 							</ul>
 							<span id="log_btn">
-								<a href="personal_banking.html">Login</a>
+								<a href="login.html">Login</a>
 							</span>
 					</div>
 				</td>
@@ -70,7 +83,7 @@
 						<table>
 							<tr>
 								<td align="center">Corporate Banking</td>
-								<td><img src="src/corporate_icon.jpg" width="80px" height="80px" alt="Corporate Icon"></td>
+								<td><img src="corporate_icon.jpg" width="80px" height="80px" alt="Corporate Icon"></td>
 							</tr>
 						</table>
 						&nbsp;<br>&nbsp;<br>
@@ -90,13 +103,30 @@
 				</td>
 				<td>
 					<div id="usefull_link">
-						<span><u>Use full links :</u></span>
-						<ul>
-							<li>&#x25b7; Mobile/DTH Recharge</li>
-							<li>&#x25b7; Bill Payments</li>
-							<li>&#x25b7; Tax Payment</li>
-							<li>&#x25b7; Secure Card Transaction</li>
+						<img src="logom.jpg" class="round-image">
+
+						<p >MLRITM BANK is provided by <a href="http://www.mlritm.ac.in">MLRITM </a> for
+							everyone. MLRITM Bank Internet
+							Banking is simple, convenient, 100% secure, and lets you carry out a wide range of banking
+							transactions and access numerous Net Banking features in just a few clicks. Now, say goodbye
+							to long queues and unwanted delays. With ICICI Bank, Net Banking instantly unlocks a better
+							lifestyle anytime and anywhere.</p>
+						<div class="cleaner_h20"></div>
+						
+						<h3>WORLD CLASS INTERNET BANKING IN JUST 4 STEPS</h3>
+						
+						<ul class="s1">
+							<li>1. Call Customer Care and authenticate yourself</li>
+							<li>2. Choose 'Personal Banking' or click the 'Corporate banking' button</li>
+							<li>3. Generate your password instantly, online</li>
+							<li>4. Log in with your user ID and password to access the account</li>
 						</ul>
+						
+						
+						<div class="cleaner"></div>
+						
+						</div> <!-- end of col_w590 -->
+						</div>
 					</div>
 				</td>
 			</tr>
@@ -104,7 +134,7 @@
 	</div>
 	<div id="footer" style="margin-top:10%;">
 		<hr>
-		CopyRight &copy; 2014 USBM.
+		CopyRight &copy; 2024 MLRITM.
 	</div>
 </body>
 </html>

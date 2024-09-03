@@ -1,10 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-	<title>Welcome To USBM</title>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-	<link rel="stylesheet" type="text/css" href="css/personal_banking.css">
-	<link rel="stylesheet" type="text/css" href="css/nav_logo.css">
+	<title>Welcome To MLRITM</title>
+	<link rel="shortcut icon" type="image/x-icon" href="logom.jpg"/>
+	<link rel="stylesheet" type="text/css" href="personal_banking.css">
+	<link rel="stylesheet" type="text/css" href="nav_logo.css">
 	<script type="text/javascript" src="js/cookies.js"></script>
 	<script type="text/javascript" src="js/excel_login.js"></script>
 	<script>
@@ -24,11 +24,20 @@
 			document.getElementById("notification").innerHTML=unread_trans;
 		}
 	</script>
+	<style>
+		.round-image {
+			border-radius: 70%;
+			height: 100px;
+			width: 100px;
+			object-fit: cover;
+			border: 2px solid #ccc;
+		}
+	</style>
 </head>
 <body onload="checkCookie();setPrev_page();get_usersheet();show_notification();window.page.location.reload();" onunload="sheet_quit();">
 	<div id="wrap">
 		<div id="top">
-			<a href="#"><img src="src/logo.jpg" height="100px" width="500px" style="border:0px; text-decoration:none;"></a>
+			<a href="#"><img src="logom.jpg" class="round-image" height="100px" width="500px" style="border:0px; text-decoration:none;"></a>
 			<div id="display_user" style="float:right;">
 				<p id="welcome_user" style="margin-top:85px;margin-right:50px;"></p>
 			</div>
@@ -78,7 +87,7 @@
 	</div>
 	<div id="footer">
 		<hr>
-		CopyRight &copy; 2014 USBM.
+		CopyRight &copy; 2024 MLRITM.
 	</div>
 </body>
 </html>

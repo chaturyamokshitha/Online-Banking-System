@@ -1,16 +1,25 @@
 <html>
 <head>
-	<title>Welcome To SBM</title>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="css/login.css">
-	<link rel="stylesheet" type="text/css" href="css/nav_logo.css">
+	<title>Welcome To MLRITM</title>
+	<link rel="shortcut icon" type="image/x-icon" href="logom.jpg" />
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" type="text/css" href="nav_logo.css">
 	<script type="text/javascript" src="js/cookies.js"></script>
 	<script type="text/javascript" src="js/excel_login.js"></script>
+	<style>
+		.round-image {
+			border-radius: 70%;
+			height: 100px;
+			width: 100px;
+			object-fit: cover;
+			border: 2px solid #ccc;
+		}
+	</style>
 </head>
 <body onload="checkCookie_login();" onunload="sheet_quit();">
 	<div id="wrap">
 		<div id="top">
-			<a href="main.html" target"_top"><img src="src/logo.jpg" height="100px" width="500px" style="border:0;"></a>
+			<a href="main.html" target"_top"><img src="logom.jpg" class="round-image" height="100px" width="500px" style="border:0;"></a>
 			<div id="display_user" style="float:right;">
 				<p id="welcome_user" style="margin-top:85px;margin-right:50px;"></p>
 			</div>
@@ -35,6 +44,10 @@
 					<li><a href="customer_care.html">&nbsp;Customer Care&nbsp;</a></li>
 					<li style="color:black;">|</li>
 					<li><a href="about.html">&nbsp;About&nbsp;</a></li>
+					<li style="color:black;">|</li>
+					<li><a href="login.html">&nbsp;Login&nbsp;</a></li>
+					<li style="color:black;">|</li>
+					<li><a href="signup.html">&nbsp;SignUp&nbsp;</a></li>
 				</ul>
 			</div>
 		</div>
@@ -63,7 +76,7 @@
 			<div id="note_secure">
 				<table>
 					<tr>
-						<td><image src="src/warning_sign.jpg" alt="Security Tip" width="50" height="50"></td>
+						<td><image src="warning_sign.jpg" alt="Security Tip" width="50" height="50"></td>
 						<td>
 							<b>
 								NEVER respond to any popup,email, SMS or phone call, no matter how appealing or official  looking,  seeking your personal information  such as username, password(s), mobile number, ATM Card details, etc. Such communications are sent or created by fraudsters to trick you into parting with your credentials.
@@ -75,7 +88,7 @@
 		</div>
 		<div id="footer">
 			<hr>
-			CopyRight &copy; 2014 USBM.
+			CopyRight &copy; 2024 MLRITM.
 		</div>
 	</div>
 </body>
